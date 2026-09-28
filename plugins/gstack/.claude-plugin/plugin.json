@@ -1,0 +1,20 @@
+{
+  "name": "gstack",
+  "version": "1.91.2",
+  "description": "gstack for Claude Cowork \u2014 planning, review, spec, docs, retro and ship skills from garrytan/gstack, repackaged to run without gstack's local bun/bash runtime.",
+  "author": {
+    "name": "Garry Tan (gstack); Cowork repackaging by kooock"
+  },
+  "homepage": "https://github.com/garrytan/gstack",
+  "repository": "https://github.com/kooock/gstack-cowork",
+  "license": "MIT",
+  "keywords": [
+    "gstack",
+    "cowork",
+    "code-review",
+    "planning",
+    "qa",
+    "ship"
+  ],
+  "skills": "./skills"
+}

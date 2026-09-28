@@ -1,0 +1,37 @@
+{
+  "name": "gstack-cowork",
+  "owner": {
+    "name": "kooock"
+  },
+  "metadata": {
+    "description": "Unofficial Claude Cowork packaging of garrytan/gstack (MIT). Rebuilt from a local gstack checkout by build.py.",
+    "version": "1.91.2"
+  },
+  "plugins": [
+    {
+      "name": "gstack",
+      "source": "./plugins/gstack",
+      "version": "1.91.2",
+      "category": "development",
+      "description": "gstack core for Cowork (24 skills): /office-hours, /plan-ceo-review, /plan-eng-review, /plan-design-review, /autoplan, /spec, /review, /investigate, /retro, /ship, /document-generate and more.",
+      "keywords": [
+        "gstack",
+        "cowork",
+        "planning",
+        "review"
+      ]
+    },
+    {
+      "name": "gstack-extras",
+      "source": "./plugins/gstack-extras",
+      "version": "1.91.2",
+      "category": "development",
+      "description": "gstack skills needing host tooling (27 skills: browser QA, iOS, codex, cso, gbrain). Experimental in Cowork.",
+      "keywords": [
+        "gstack",
+        "cowork",
+        "experimental"
+      ]
+    }
+  ]
+}
